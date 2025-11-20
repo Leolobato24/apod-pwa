@@ -1,5 +1,6 @@
-const API_KEY = "DEMO_KEY"; 
+const API_KEY = "d1LHp8sB2wASjEtxYv5bmxbqE2RtFquj2DIvFZ2K";
 const url = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
+
 
 fetch(url)
   .then(res => res.json())
